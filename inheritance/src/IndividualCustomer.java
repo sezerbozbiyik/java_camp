@@ -1,4 +1,5 @@
-public class IndividualCustomer extends Customer{
+public class IndividualCustomer extends Customer {
+
     String firstName;
     String lastName;
     String nationalIdentity;
