@@ -9,12 +9,12 @@ public class Product {
         System.out.println("Ben Çalıştım.");
     }
 
-    public Product(int id, String name, String detail, double discount, double unitPrice) {
+    public Product(int id, String name, String detail, double unitPrice, double discount) {
         this();
         this.id = id;
         this.name = name;
-        this.unitPrice = id;
-        this.discount = id;
+        this.unitPrice = unitPrice;
+        this.discount = discount;
     }
 
     public int getId() {
@@ -41,24 +41,24 @@ public class Product {
         this.detail = detail;
     }
 
-    public Double getDiscount() {
+    public double getDiscount() {
         return discount;
     }
 
-    public void setDiscount(Double discount) {
+    public void setDiscount(double discount) {
         this.discount = discount;
     }
 
-    public Double getUnitPrice() {
+    public double getUnitPrice() {
         return unitPrice;
     }
 
-    public void setUnitPrice(Double unitPrice) {
+    public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
     }
 
     public double getUnitPriceAfterDiscount() {
-        return unitPrice * discount / 100;
+        return this.unitPrice-(this.unitPrice * (discount / 100));
     }
 
 }
