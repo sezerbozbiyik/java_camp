@@ -15,7 +15,6 @@ public class Product {
         this.name = name;
         this.unitPrice = id;
         this.discount = id;
-
     }
 
     public int getId() {
@@ -56,6 +55,10 @@ public class Product {
 
     public void setUnitPrice(Double unitPrice) {
         this.unitPrice = unitPrice;
+    }
+
+    public double getUnitPriceAfterDiscount() {
+        return unitPrice * discount / 100;
     }
 
 }
