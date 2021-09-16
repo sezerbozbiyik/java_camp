@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/intro/intro.iml" filepath="$PROJECT_DIR$/intro/intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_camp.iml" filepath="$PROJECT_DIR$/.idea/java_camp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nLayeredDemo/nLayeredDemo.iml" filepath="$PROJECT_DIR$/nLayeredDemo/nLayeredDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/oopIntro/oopIntro.iml" filepath="$PROJECT_DIR$/oopIntro/oopIntro.iml" />
     </modules>
   </component>
